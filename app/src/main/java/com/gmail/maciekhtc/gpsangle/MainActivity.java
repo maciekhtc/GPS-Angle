@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 newMarker.draggable(true);
                 newMarker.title(newLatLng.toString());
                 mPoints.put(mMap.addMarker(newMarker), newLoc);
-                textView1.setText("move marker");
+                textView1.setText("move the marker");
             }
         });
 
