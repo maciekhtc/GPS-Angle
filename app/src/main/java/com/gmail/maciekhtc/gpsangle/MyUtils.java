@@ -34,7 +34,7 @@ public class MyUtils {
     public static Location middleLocation(Location[] listOfPoints)
     {
         Location result=new Location(listOfPoints[0]);      //przykladowy punkt do modyfikacji, bo ciezko stworzyc od zera
-        double sumLatitudes=0, sumLongitudes=0, sumAltitudes=0;
+        double sumLatitudes=0, sumLongitudes=0, sumAltitudes=0;     //init zmiennych
         for (Location loc : listOfPoints)
         {
             sumLatitudes += loc.getLatitude();
